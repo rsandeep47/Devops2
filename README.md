@@ -1,5 +1,12 @@
-# Devops2
-Devops2 is my second GIT rep
-updated in local
-updated in Remote Rep on 5/11 12 pm
-Updated to Test changes in Jenkins
+<div id="readme"></div>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/jquery-gh-readme/dist/jquery.gh-readme.min.js"></script>
+<script>
+	$(function () {
+		var options = {
+			owner: 'zmckinnon',
+			repo: 'jquery-gh-readme'
+		};
+		$('#readme').readme(options);
+	});
+</script>
